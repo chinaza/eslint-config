@@ -1,19 +1,29 @@
 {
-  "name": "eslint-config-zhap",
-  "version": "1.0.0",
+  "name": "@chinaza/eslint-config-zhap",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "ESlint Configuration for Zhap Projects",
-  "author": "zhap",
+  "author": "Chinaza",
   "license": "MIT",
+  "homepage": "https://github.com/chinaza/eslint-config-zhap",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinaza/eslint-config-zhap.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0",
+    "prettier": ">=2.0.0"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
-    "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "^7.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.5.1"
+    "eslint-plugin-react-hooks": "^4.3.0"
   }
 }
