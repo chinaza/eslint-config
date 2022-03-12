@@ -2,6 +2,11 @@
 
 This package provides Zhap's ESLint and Pretter extensible shared config
 
+There are 2 configs:
+
+- @chinaza/eslint-config/express - This enables linting for NodeJS/ Express based applications
+- @chinaza/eslint-config/react - This enables linting rules for React and JSX based code
+
 ## Installation
 
 `npm install -D @chinaza/eslint-config`
