@@ -1,17 +1,17 @@
 {
-  "name": "@chinaza/eslint-config-zhap",
-  "version": "1.0.3",
+  "name": "@chinaza/eslint-config",
+  "version": "1.0.4",
   "main": "index.js",
   "description": "ESlint Configuration for Zhap Projects",
   "author": "Chinaza",
   "license": "MIT",
-  "homepage": "https://github.com/chinaza/eslint-config-zhap",
+  "homepage": "https://github.com/chinaza/eslint-config",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chinaza/eslint-config-zhap.git"
+    "url": "https://github.com/chinaza/eslint-config.git"
   },
   "peerDependencies": {
     "eslint": ">=7.0.0",
