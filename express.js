@@ -26,9 +26,16 @@ module.exports = {
     'no-undef': 'error',
     'no-unreachable': 'error',
     'no-unused-expressions': 'warn',
-    'no-unused-vars': 'off',
     '@typescript-eslint/camelcase': 'off',
-    '@typescript-eslint/no-unused-vars': 'warn',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
     'no-redeclare': 'error',
     'vars-on-top': 'error',
     'spaced-comment': 'warn',
