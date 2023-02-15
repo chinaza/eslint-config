@@ -1,8 +1,8 @@
 {
   "name": "@chinaza/eslint-config",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "main": "index.js",
-  "description": "ESlint Configuration for Zhap Projects",
+  "description": "ESlint Configuration for Zhappy Projects",
   "author": "Chinaza",
   "license": "MIT",
   "homepage": "https://github.com/chinaza/eslint-config",
@@ -24,6 +24,7 @@
     "eslint-config-react-app": "^7.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-solid": "^0.9.4"
   }
 }
