@@ -1,6 +1,6 @@
 {
   "name": "@chinaza/eslint-config",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "index.js",
   "description": "ESlint Configuration for Zhappy Projects",
   "author": "Chinaza",
