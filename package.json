@@ -1,6 +1,6 @@
 {
   "name": "@chinaza/eslint-config",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "main": "index.js",
   "description": "ESlint Configuration for Zhappy Projects",
   "author": "Chinaza",
@@ -14,8 +14,8 @@
     "url": "https://github.com/chinaza/eslint-config.git"
   },
   "peerDependencies": {
-    "eslint": ">=8.0.0",
-    "prettier": ">=3.0.0"
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.62.0",
