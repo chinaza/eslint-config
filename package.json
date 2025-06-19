@@ -1,6 +1,6 @@
 {
   "name": "@chinaza/eslint-config",
-  "version": "1.2.5",
+  "version": "2.0.0",
   "main": "index.js",
   "description": "ESlint Configuration for Zhappy Projects",
   "author": "Chinaza",
@@ -13,18 +13,15 @@
     "type": "git",
     "url": "https://github.com/chinaza/eslint-config.git"
   },
-  "peerDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^3.0.0"
-  },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-react-app": "^7.0.1",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-solid": "^0.13.1"
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.34.1"
   }
 }
