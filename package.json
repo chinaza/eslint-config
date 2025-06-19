@@ -1,11 +1,17 @@
 {
   "name": "@chinaza/eslint-config",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "files": [
     "ionic.eslint.config.js",
     "prettier.config.js",
     "express.eslint.config.js"
   ],
+  "exports": {
+    "./ionic.eslint.config": "./ionic.eslint.config.js",
+    "./prettier.config": "./prettier.config.js",
+    "./express.eslint.config": "./express.eslint.config.js"
+  },
+  "type": "module",
   "description": "ESlint Configuration for Zhappy Projects",
   "author": "Chinaza",
   "license": "MIT",
