@@ -169,7 +169,7 @@ export default tseslint.config(
       "@typescript-eslint/prefer-optional-chain": "warn",
       "@typescript-eslint/no-floating-promises": "warn", // Relaxed for mobile dev
       "@typescript-eslint/await-thenable": "error",
-      "@typescript-eslint/no-explicit-any": "warn", // Relaxed for rapid prototyping
+      "@typescript-eslint/no-explicit-any": "off", // Disabled for flexibility
       "@typescript-eslint/no-empty-function": "warn",
 
       // Relaxed TypeScript rules for mobile development

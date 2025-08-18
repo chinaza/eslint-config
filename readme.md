@@ -14,6 +14,8 @@ There are 3 configs available:
 npm install -D @chinaza/eslint-config eslint prettier typescript-eslint
 ```
 
+> **Note**: We intentionally do not include `eslint-plugin-prettier` as a dependency. This package uses `eslint-config-prettier` to disable conflicting ESLint rules while keeping Prettier and ESLint as separate tools. See the [Philosophy section](#philosophy-prettier--eslint-separation) for more details.
+
 ## Express/Node.js Configuration
 
 The Express config provides comprehensive linting for Node.js and Express.js applications with support for both TypeScript and JavaScript.
@@ -98,6 +100,47 @@ For projects still using ESLint 8.x, you can use the legacy format:
 ```json .eslintrc.json
 {
   "extends": "@chinaza/eslint-config/express"
+}
+```
+
+## Philosophy: Prettier + ESLint Separation
+
+This configuration **does not** include `eslint-plugin-prettier`. Instead, we recommend running Prettier separately from ESLint for the following reasons:
+
+### Why We Don't Use eslint-plugin-prettier
+
+- **Performance**: Running Prettier through ESLint is significantly slower than running them separately
+- **Clear Separation of Concerns**:
+  - **Prettier** handles code formatting (spacing, line breaks, quotes)
+  - **ESLint** focuses on code quality and best practices (logic errors, unused variables, etc.)
+- **Reduced Conflicts**: Avoids potential rule conflicts between ESLint and Prettier
+- **Better Developer Experience**: Clearer error messages and faster feedback
+- **Tool Independence**: Each tool can be updated and configured independently
+
+### Recommended Workflow
+
+```bash
+# Format code with Prettier
+npm run prettier --write .
+
+# Lint code with ESLint
+npm run eslint .
+
+# Or run both in sequence
+npm run prettier --write . && npm run eslint .
+```
+
+### Package.json Scripts
+
+```json package.json
+{
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "check": "npm run format:check && npm run lint"
+  }
 }
 ```
 
@@ -241,6 +284,8 @@ export default tseslint.config(...ionicConfig, {
 ```
 
 ## What's Included
+
+> **Note**: Like the Express config, this Ionic configuration follows the same philosophy of separating Prettier and ESLint concerns. See the [Philosophy section](#philosophy-prettier--eslint-separation) above for details on why we don't use `eslint-plugin-prettier`.
 
 ### Ionic Config Rules
 
