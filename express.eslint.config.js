@@ -117,6 +117,7 @@ export default tseslint.config(
       "@typescript-eslint/prefer-optional-chain": "warn",
       "@typescript-eslint/no-floating-promises": "error",
       "@typescript-eslint/await-thenable": "error",
+      "@typescript-eslint/no-unsafe-argument": "off",
 
       // Code quality for TypeScript
       "prefer-arrow-callback": "warn",
