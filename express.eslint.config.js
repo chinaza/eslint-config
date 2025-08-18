@@ -2,7 +2,6 @@ import js from "@eslint/js";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 import eslintConfigPrettier from "eslint-config-prettier";
-import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 
 /**
  * Reusable ESLint configuration for Express.js projects
@@ -172,6 +171,5 @@ export default tseslint.config(
   },
 
   // Prettier integration
-  eslintConfigPrettier,
-  eslintPluginPrettierRecommended
+  eslintConfigPrettier
 );
