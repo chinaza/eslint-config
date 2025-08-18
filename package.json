@@ -1,10 +1,14 @@
 {
   "name": "@chinaza/eslint-config",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "files": [
     "ionic.eslint.config.js",
     "prettier.config.js",
-    "express.eslint.config.js"
+    "express.eslint.config.js",
+    "examples/",
+    "INTEGRATION_GUIDE.md",
+    "IONIC_INTEGRATION_GUIDE.md",
+    "CHANGELOG.md"
   ],
   "exports": {
     "./ionic.eslint.config": "./ionic.eslint.config.js",
@@ -28,6 +32,7 @@
     "prettier": "^3.5.3"
   },
   "dependencies": {
+    "@eslint/js": "^9.29.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.5.0",
     "eslint-plugin-react": "^7.37.5",
