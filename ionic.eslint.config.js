@@ -181,6 +181,7 @@ export default tseslint.config(
       "@typescript-eslint/prefer-regexp-exec": "off",
       "@typescript-eslint/no-misused-promises": "off",
       "@typescript-eslint/prefer-nullish-coalescing": "off",
+      "@typescript-eslint/no-unsafe-enum-comparison": "off",
 
       // React specific rules
       ...react.configs.recommended.rules,
