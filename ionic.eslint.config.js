@@ -165,7 +165,6 @@ export default tseslint.config(
       "@typescript-eslint/no-redeclare": "error",
       "@typescript-eslint/no-implied-eval": "error",
       "@typescript-eslint/only-throw-error": "error",
-      "@typescript-eslint/prefer-nullish-coalescing": "warn",
       "@typescript-eslint/prefer-optional-chain": "warn",
       "@typescript-eslint/no-floating-promises": "warn", // Relaxed for mobile dev
       "@typescript-eslint/await-thenable": "error",
@@ -181,6 +180,7 @@ export default tseslint.config(
       "@typescript-eslint/no-unsafe-return": "off",
       "@typescript-eslint/prefer-regexp-exec": "off",
       "@typescript-eslint/no-misused-promises": "off",
+      "@typescript-eslint/prefer-nullish-coalescing": "off",
 
       // React specific rules
       ...react.configs.recommended.rules,

@@ -112,7 +112,7 @@ export default tseslint.config(
       "@typescript-eslint/no-redeclare": "error",
       "@typescript-eslint/no-implied-eval": "error",
       "@typescript-eslint/only-throw-error": "error",
-      "@typescript-eslint/prefer-nullish-coalescing": "warn",
+      "@typescript-eslint/prefer-nullish-coalescing": "off",
       "@typescript-eslint/prefer-optional-chain": "warn",
       "@typescript-eslint/no-floating-promises": "error",
       "@typescript-eslint/await-thenable": "error",
