@@ -180,6 +180,7 @@ export default tseslint.config(
       "@typescript-eslint/no-unsafe-argument": "off",
       "@typescript-eslint/no-unsafe-return": "off",
       "@typescript-eslint/prefer-regexp-exec": "off",
+      "@typescript-eslint/no-misused-promises": "off",
 
       // React specific rules
       ...react.configs.recommended.rules,
