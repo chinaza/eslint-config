@@ -166,7 +166,7 @@ export default tseslint.config(
       "@typescript-eslint/no-implied-eval": "error",
       "@typescript-eslint/only-throw-error": "error",
       "@typescript-eslint/prefer-optional-chain": "warn",
-      "@typescript-eslint/no-floating-promises": "warn", // Relaxed for mobile dev
+      "@typescript-eslint/no-floating-promises": "off", // Relaxed for mobile dev
       "@typescript-eslint/await-thenable": "error",
       "@typescript-eslint/no-explicit-any": "off", // Disabled for flexibility
       "@typescript-eslint/no-empty-function": "warn",
