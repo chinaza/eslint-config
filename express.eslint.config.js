@@ -123,6 +123,7 @@ export default tseslint.config(
       "@typescript-eslint/no-explicit-any": "off",
       "@typescript-eslint/no-unsafe-call": "off",
       "@typescript-eslint/no-unsafe-enum-comparison": "off",
+      "@typescript-eslint/require-await": "off",
 
       // Code quality for TypeScript
       "prefer-arrow-callback": "warn",
