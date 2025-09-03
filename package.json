@@ -1,6 +1,6 @@
 {
   "name": "@chinaza/eslint-config",
-  "version": "2.1.12",
+  "version": "2.1.13",
   "files": [
     "ionic.eslint.config.js",
     "prettier.config.js",
