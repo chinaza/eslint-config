@@ -5,13 +5,14 @@ import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
 import eslintConfigPrettier from "eslint-config-prettier";
 import react from "eslint-plugin-react";
+import { defineConfig } from "eslint/config";
 
 /**
  * Reusable ESLint configuration for Ionic React projects
  * Supports TypeScript, JSX, and modern React patterns
  * Includes Ionic-specific optimizations and mobile development best practices
  */
-export default tseslint.config(
+export default defineConfig(
   // Global ignores
   {
     ignores: [

@@ -1,4 +1,5 @@
 import js from "@eslint/js";
+import { defineConfig } from "eslint/config";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 import eslintConfigPrettier from "eslint-config-prettier";
@@ -8,7 +9,7 @@ import eslintConfigPrettier from "eslint-config-prettier";
  * Supports both TypeScript and JavaScript files
  * Includes Node.js globals and Express.js best practices
  */
-export default tseslint.config(
+export default defineConfig(
   // Global ignores
   {
     ignores: [
