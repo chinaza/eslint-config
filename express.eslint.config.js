@@ -103,18 +103,8 @@ export default defineConfig(
       "@typescript-eslint/no-use-before-define": "error",
       "@typescript-eslint/no-shadow": ["error"],
       "@typescript-eslint/no-redeclare": "error",
-      "@typescript-eslint/only-throw-error": "error",
-      "@typescript-eslint/prefer-nullish-coalescing": "off",
       "@typescript-eslint/prefer-optional-chain": "warn",
-      "@typescript-eslint/no-floating-promises": "off",
-      "@typescript-eslint/no-unsafe-argument": "off",
-      "@typescript-eslint/no-unsafe-assignment": "off",
-      "@typescript-eslint/no-unsafe-return": "off",
-      "@typescript-eslint/no-unsafe-member-access": "off",
       "@typescript-eslint/no-explicit-any": "off",
-      "@typescript-eslint/no-unsafe-call": "off",
-      "@typescript-eslint/no-unsafe-enum-comparison": "off",
-      "@typescript-eslint/require-await": "off",
 
       // Code quality for TypeScript
       "prefer-arrow-callback": "warn",

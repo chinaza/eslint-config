@@ -153,23 +153,9 @@ export default defineConfig(
       "@typescript-eslint/no-use-before-define": "error",
       "@typescript-eslint/no-shadow": ["error"],
       "@typescript-eslint/no-redeclare": "error",
-      "@typescript-eslint/only-throw-error": "error",
       "@typescript-eslint/prefer-optional-chain": "warn",
-      "@typescript-eslint/no-floating-promises": "off", // Relaxed for mobile dev
       "@typescript-eslint/no-explicit-any": "off", // Disabled for flexibility
       "@typescript-eslint/no-empty-function": "warn",
-
-      // Relaxed TypeScript rules for mobile development
-      "@typescript-eslint/restrict-template-expressions": "off",
-      "@typescript-eslint/no-unsafe-call": "off",
-      "@typescript-eslint/no-unsafe-member-access": "off",
-      "@typescript-eslint/no-unsafe-assignment": "off",
-      "@typescript-eslint/no-unsafe-argument": "off",
-      "@typescript-eslint/no-unsafe-return": "off",
-      "@typescript-eslint/prefer-regexp-exec": "off",
-      "@typescript-eslint/no-misused-promises": "off",
-      "@typescript-eslint/prefer-nullish-coalescing": "off",
-      "@typescript-eslint/no-unsafe-enum-comparison": "off",
 
       // React specific rules
       ...react.configs.recommended.rules,
