@@ -125,8 +125,8 @@ export default defineConfig(
         ...globals.jest,
       },
       parserOptions: {
-        project: ["./tsconfig.json"],
-        tsconfigRootDir: process.cwd(),
+        project: "./tsconfig.json",
+        tsconfigRootDir: __dirname,
         ecmaFeatures: {
           jsx: true,
         },
