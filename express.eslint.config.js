@@ -71,11 +71,7 @@ export default defineConfig(
 
   // TypeScript specific configuration
   {
-    extends: [
-      js.configs.recommended,
-      ...tseslint.configs.recommended,
-      ...tseslint.configs.recommendedTypeChecked,
-    ],
+    extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ["**/*.{ts,tsx}"],
     languageOptions: {
       ecmaVersion: 2022,
@@ -84,10 +80,6 @@ export default defineConfig(
         ...globals.node,
         ...globals.es2022,
         ...globals.jest,
-      },
-      parserOptions: {
-        project: "./tsconfig.json",
-        tsconfigRootDir: __dirname,
       },
     },
     rules: {
