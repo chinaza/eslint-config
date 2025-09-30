@@ -95,6 +95,14 @@ export default defineConfig(
       "no-const-assign": "error",
       "no-undef": "error",
       "no-unreachable": "error",
+      "no-unused-vars": [
+        "error",
+        {
+          argsIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+          caughtErrorsIgnorePattern: "^_",
+        },
+      ],
       "no-unused-expressions": "warn",
       "no-useless-concat": "warn",
       "no-redeclare": "error",
